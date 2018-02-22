@@ -1,0 +1,4 @@
+for dir in (find ~/Projects -maxdepth 1 -not -name 'Projects' -not -name '.*' -type d)
+  set dirname (echo $dir|rev|cut -d '/' -f1|rev)
+  set -gx (echo $dirname) ~/Projects/$dirname
+end

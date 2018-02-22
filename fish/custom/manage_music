@@ -1,0 +1,3 @@
+function manage_music
+  ssh -t entrecote "cd /home/lol/zik/JM && bash -l"
+end

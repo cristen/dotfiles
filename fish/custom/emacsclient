@@ -1,0 +1,8 @@
+function ec
+    emacsclient -c $argv &
+end
+
+
+function e
+    emacsclient -t $argv &
+end
